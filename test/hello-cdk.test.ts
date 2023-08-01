@@ -1,14 +1,14 @@
-// const cdk = require('aws-cdk-lib');
-// const { Template } = require('aws-cdk-lib/assertions');
-// const HelloCdk = require('../lib/hello-cdk-stack');
+// import * as cdk from 'aws-cdk-lib';
+// import { Template } from 'aws-cdk-lib/assertions';
+// import * as HelloCdk from '../lib/hello-cdk-stack';
 
 // example test. To run these tests, uncomment this file along with the
-// example resource in lib/hello-cdk-stack.js
+// example resource in lib/hello-cdk-stack.ts
 test('SQS Queue Created', () => {
 //   const app = new cdk.App();
-//   // WHEN
+//     // WHEN
 //   const stack = new HelloCdk.HelloCdkStack(app, 'MyTestStack');
-//   // THEN
+//     // THEN
 //   const template = Template.fromStack(stack);
 
 //   template.hasResourceProperties('AWS::SQS::Queue', {

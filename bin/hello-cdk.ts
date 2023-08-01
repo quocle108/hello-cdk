@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-
-const cdk = require('aws-cdk-lib');
-const { HelloCdkStack } = require('../lib/hello-cdk-stack');
+import 'source-map-support/register';
+import * as cdk from 'aws-cdk-lib';
+import { HelloCdkStack } from '../lib/hello-cdk-stack';
 
 const app = new cdk.App();
 new HelloCdkStack(app, 'HelloCdkStack', {
